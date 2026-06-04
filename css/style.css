@@ -337,3 +337,84 @@ button:hover {
     }
 }
 
+
+
+
+
+.help-page .faq {
+    max-width: 900px;
+    margin: 40px auto 70px;
+}
+
+.help-page .faq h2,
+.help-page .contact-section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: none;
+    margin-bottom: 35px;
+}
+
+.help-page .faq h2::after,
+.help-page .contact-section h2::after {
+    content: "";
+}
+
+.help-page details {
+    background-color: #1f2833;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.help-page summary {
+    padding: 20px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    list-style: none;
+}
+
+.help-page summary::after {
+    content: " +";
+    float: right;
+}
+
+.help-page details[open] summary::after {
+    content: " -";
+}
+
+.help-page summary:hover {
+    background-color: #2d3b4b;
+}
+
+.help-page details p {
+    padding: 0 20px 20px;
+    color: #dceeff;
+}
+
+.help-page .contact-section {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+.download-xml {
+    font-size: 1rem;
+    text-align: center;
+    margin: 15px 0 25px;
+    color: #dceeff;
+}
+
+.download-xml a {
+    font-size: 0.95rem;
+    color: #66fcf1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.download-xml a:hover {
+    text-decoration: underline;
+}

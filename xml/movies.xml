@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<movies>
+
+    <movie>
+        <title>Tangled</title>
+        <genre>Animation</genre>
+        <song></song>
+        <artist></artist>
+    </movie>
+
+    <movie>
+        <title>Scooby-Doo</title>
+        <genre>Comedy</genre>
+        <song></song>
+        <artist></artist>
+    </movie>
+
+    <movie>
+        <title>The Addams Family</title>
+        <genre>Comedy Horror</genre>
+        <song></song>
+        <artist></artist>
+    </movie>
+
+    <movie>
+        <title>Shrek</title>
+        <genre>Animation</genre>
+        <song></song>
+        <artist></artist>
+    </movie>
+
+    <movie>
+        <title>Bridget Jones's Diary</title>
+        <genre>Romance Comedy</genre>
+        <song></song>
+        <artist></artist>
+    </movie>
+
+    <movie>
+        <title>Titanic</title>
+        <genre>Romance</genre>
+        <song></song>
+        <artist></artist>
+    </movie>
+
+    <movie>
+        <title>Avatar</title>
+        <genre>Science Fiction</genre>
+        <song></song>
+        <artist></artist>
+    </movie>
+
+    <movie>
+        <title>Zootopia</title>
+        <genre>Animation</genre>
+        <song></song>
+        <artist></artist>
+    </movie>
+
+    <movie>
+        <title>Rush Hour</title>
+        <genre>Action Comedy</genre>
+        <song></song>
+        <artist></artist>
+    </movie>
+
+    <movie>
+        <title>La La Land</title>
+        <genre>Musical</genre>
+        <song></song>
+        <artist></artist>
+    </movie>
+
+    <movie>
+        <title>Legally Blonde</title>
+        <genre>Comedy</genre>
+        <song></song>
+        <artist></artist>
+    </movie>
+
+    <movie>
+        <title>Twilight</title>
+        <genre>Fantasy Romance</genre>
+        <song></song>
+        <artist></artist>
+    </movie>
+
+</movies>
