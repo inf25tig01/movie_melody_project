@@ -19,7 +19,7 @@
     <movie>
         <title>The Addams Family</title>
         <genre>Comedy Horror</genre>
-        <song>Somebody's Watching Me</song>
+        <song>Somebody&apos;s Watching Me</song>
         <artist>Rockwell</artist>
     </movie>
 
@@ -31,7 +31,7 @@
     </movie>
 
     <movie>
-        <title>Bridget Jones's Diary</title>
+        <title>Bridget Jones&apos;s Diary</title>
         <genre>Romance Comedy</genre>
         <song>Perfect</song>
         <artist>Ed Sheeran</artist>
@@ -62,14 +62,14 @@
         <title>Rush Hour</title>
         <genre>Action Comedy</genre>
         <song>Can't Hold Us</song>
-        <artist>Macklemore & Ryan Lewis</artist>
+        <artist>Macklemore and Ryan Lewis</artist>
     </movie>
 
     <movie>
         <title>La La Land</title>
         <genre>Musical</genre>
         <song>City Of Stars</song>
-        <artist>Ryan Gosling & Emma Stone</artist>
+        <artist>Ryan Gosling and Emma Stone</artist>
     </movie>
 
     <movie>
