@@ -5,85 +5,85 @@
     <movie>
         <title>Tangled</title>
         <genre>Animation</genre>
-        <song></song>
-        <artist></artist>
+        <song>I See The Light</song>
+        <artist>Mandy Moore & Zachary Levi</artist>
     </movie>
 
     <movie>
         <title>Scooby-Doo</title>
         <genre>Comedy</genre>
-        <song></song>
-        <artist></artist>
+        <song>Ghostbusters</song>
+        <artist>Ray Parker Jr.</artist>
     </movie>
 
     <movie>
         <title>The Addams Family</title>
         <genre>Comedy Horror</genre>
-        <song></song>
-        <artist></artist>
+        <song>Somebody's Watching Me</song>
+        <artist>Rockwell</artist>
     </movie>
 
     <movie>
         <title>Shrek</title>
         <genre>Animation</genre>
-        <song></song>
-        <artist></artist>
+        <song>All Star</song>
+        <artist>Smash Mouth</artist>
     </movie>
 
     <movie>
         <title>Bridget Jones's Diary</title>
         <genre>Romance Comedy</genre>
-        <song></song>
-        <artist></artist>
+        <song>Perfect</song>
+        <artist>Ed Sheeran</artist>
     </movie>
 
     <movie>
         <title>Titanic</title>
         <genre>Romance</genre>
-        <song></song>
-        <artist></artist>
+        <song>My Heart Will Go On</song>
+        <artist>Celine Dion</artist>
     </movie>
 
     <movie>
         <title>Avatar</title>
         <genre>Science Fiction</genre>
-        <song></song>
-        <artist></artist>
+        <song>A Sky Full Of Stars</song>
+        <artist>Coldplay</artist>
     </movie>
 
     <movie>
         <title>Zootopia</title>
         <genre>Animation</genre>
-        <song></song>
-        <artist></artist>
+        <song>Try Everything</song>
+        <artist>Shakira</artist>
     </movie>
 
     <movie>
         <title>Rush Hour</title>
         <genre>Action Comedy</genre>
-        <song></song>
-        <artist></artist>
+        <song>Can't Hold Us</song>
+        <artist>Macklemore & Ryan Lewis</artist>
     </movie>
 
     <movie>
         <title>La La Land</title>
         <genre>Musical</genre>
-        <song></song>
-        <artist></artist>
+        <song>City Of Stars</song>
+        <artist>Ryan Gosling & Emma Stone</artist>
     </movie>
 
     <movie>
         <title>Legally Blonde</title>
         <genre>Comedy</genre>
-        <song></song>
-        <artist></artist>
+        <song>Roar</song>
+        <artist>Katy Perry</artist>
     </movie>
 
     <movie>
         <title>Twilight</title>
         <genre>Fantasy Romance</genre>
-        <song></song>
-        <artist></artist>
+        <song>A Thousand Years</song>
+        <artist>Christina Perri</artist>
     </movie>
 
 </movies>
