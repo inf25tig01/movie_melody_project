@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -10,14 +9,12 @@ body {
     overflow-x: hidden;
 }
 
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #101820;
     color: white;
     line-height: 1.6;
 }
-
 
 header {
     background: linear-gradient(to bottom, #061826, #102334);
@@ -29,11 +26,10 @@ header h1 {
     font-family: 'Pacifico', cursive;
     font-size: clamp(3.2rem, 8vw, 6rem);
     font-weight: 400;
-    color: #ffffff;
+    color: white;
     letter-spacing: 2px;
     line-height: 1.1;
     margin-bottom: 18px;
-
 }
 
 header p {
@@ -42,7 +38,6 @@ header p {
     margin-bottom: 20px;
     letter-spacing: 1px;
 }
-
 
 .banner-image {
     width: 100%;
@@ -54,7 +49,6 @@ header p {
     margin: 25px auto 0;
     border-radius: 18px;
 }
-
 
 nav {
     background-color: #0b0c10;
@@ -72,9 +66,8 @@ nav ul {
 }
 
 nav a {
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color: #ffffff;
+    color: white;
     font-size: 1.1rem;
     font-weight: bold;
     transition: 0.3s;
@@ -85,11 +78,9 @@ nav a:hover {
     text-shadow: 0 0 10px #8edcff;
 }
 
-
 main {
     padding: 55px 20px;
 }
-
 
 .intro {
     text-align: center;
@@ -100,7 +91,7 @@ main {
     font-family: 'Pacifico', cursive;
     font-size: clamp(2.5rem, 5vw, 4rem);
     font-weight: 400;
-    color: #ffffff;
+    color: white;
     letter-spacing: 1px;
     text-shadow:
         0 0 8px #8edcff,
@@ -120,30 +111,39 @@ main {
     font-size: 1.2rem;
 }
 
+.download-xml {
+    font-size: 1rem;
+    text-align: center;
+    margin: 15px 0 25px;
+    color: #dceeff;
+}
+
+.download-xml a {
+    font-size: 0.95rem;
+    color: #66fcf1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.download-xml a:hover {
+    text-decoration: underline;
+}
 
 .movies {
-    max-width: 1400px;
-    margin: auto;
+    width: fit-content;
+    margin: 30px auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    justify-items: center;
+    grid-template-columns: repeat(4, 280px);
+    gap: 40px;
 }
 
 .movies h2 {
     grid-column: 1 / -1;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: white;
     text-align: center;
     margin-bottom: 40px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-shadow: none;
+    font-size: 2.8rem;
+    letter-spacing: 4px;
 }
-
 
 .movie-card {
     width: 280px;
@@ -160,14 +160,12 @@ main {
     box-shadow: 0 0 20px rgba(142, 220, 255, 0.4);
 }
 
-
 .movie-card img {
     width: 100%;
     height: 420px;
     object-fit: cover;
     display: block;
 }
-
 
 figure {
     position: relative;
@@ -179,7 +177,6 @@ figcaption {
     font-weight: bold;
     background-color: #0b0c10;
 }
-
 
 .movie-info {
     position: absolute;
@@ -201,12 +198,7 @@ figcaption {
     transform: translateY(0);
 }
 
-.movie-card:hover .movie-info {
-    display: block;
-}
-
 .movie-info h3 {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 10px;
@@ -214,18 +206,8 @@ figcaption {
 
 .movie-info p {
     margin-bottom: 10px;
+    line-height: 1.5;
 }
-
-.movie-info a {
-    color: #8edcff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.movie-info a:hover {
-    text-decoration: underline;
-}
-
 
 footer {
     background-color: #0b0c10;
@@ -239,6 +221,7 @@ footer address {
     color: #c5c6c7;
 }
 
+/* TABLES */
 
 table {
     width: 100%;
@@ -260,6 +243,7 @@ tbody tr:nth-child(even) {
     background-color: #263238;
 }
 
+/* FORMS */
 
 form {
     max-width: 600px;
@@ -287,6 +271,268 @@ button:hover {
     opacity: 0.8;
 }
 
+/* HELP PAGE */
+
+.help-page .faq {
+    max-width: 900px;
+    margin: 40px auto 70px;
+}
+
+.help-page .faq h2,
+.help-page .contact-section h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: none;
+    margin-bottom: 35px;
+}
+
+.help-page .faq h2::after,
+.help-page .contact-section h2::after {
+    content: "";
+}
+
+.help-page details {
+    background-color: #1f2833;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.help-page summary {
+    padding: 20px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    list-style: none;
+}
+
+.help-page summary::after {
+    content: " +";
+    float: right;
+}
+
+.help-page details[open] summary::after {
+    content: " -";
+}
+
+.help-page summary:hover {
+    background-color: #87a9d0;
+}
+
+.help-page details p {
+    padding: 0 20px 20px;
+    color: white;
+}
+
+.help-page .contact-section {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* SONGS PAGE MODAL */
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-content {
+    background: white;
+    color: #222;
+    width: 500px;
+    max-width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.modal-content h2 {
+    margin-bottom: 20px;
+}
+
+.modal-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.modal-content li {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.modal-buttons {
+    margin-top: 20px;
+}
+
+.modal-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* PRICING PAGE */
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    width: 90%;
+}
+
+.plan {
+    width: 320px;
+    min-height: 500px;
+    padding: 25px;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.plan:hover {
+    transform: translateY(-10px);
+}
+
+.free-plan {
+    background:
+        linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)),
+        url("../images/movie1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.premium-plan {
+    background:
+        linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)),
+        url("../images/movie7.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border: 3px solid gold;
+}
+
+.yearly-plan {
+    background:
+        linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)),
+        url("../images/movie4.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.plan h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.price span {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.plan li {
+    padding: 10px 0;
+    color: white;
+    font-size: 1rem;
+}
+
+.plan button {
+    background: #6ec6f0;
+    color: #111;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.plan button:hover {
+    transform: scale(1.05);
+}
+
+.popular-tag {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: gold;
+    color: #222;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.faq {
+    width: 80%;
+    margin: 60px auto;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.faq details {
+    background: white;
+    color: #222;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.faq summary {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.faq p {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.pricing-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+/* RESPONSIVE */
 
 @media screen and (max-width: 1200px) {
     .movies {
@@ -335,473 +581,4 @@ button:hover {
         height: 190px;
         border-radius: 12px;
     }
-}
-
-
-
-
-
-.help-page .faq {
-    max-width: 900px;
-    margin: 40px auto 70px;
-}
-
-.help-page .faq h2,
-.help-page .contact-section h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.4rem;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    text-shadow: none;
-    margin-bottom: 35px;
-}
-
-.help-page .faq h2::after,
-.help-page .contact-section h2::after {
-    content: "";
-}
-
-.help-page details {
-    background-color: #1f2833;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    overflow: hidden;
-}
-
-.help-page summary {
-    padding: 20px;
-    cursor: pointer;
-    font-size: 1.1rem;
-    font-weight: bold;
-    list-style: none;
-}
-
-.help-page summary::after {
-    content: " +";
-    float: right;
-}
-
-.help-page details[open] summary::after {
-    content: " -";
-}
-
-.help-page summary:hover {
-    background-color: #2d3b4b;
-}
-
-.help-page details p {
-    padding: 0 20px 20px;
-    color: #dceeff;
-}
-
-.help-page .contact-section {
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-
-.download-xml {
-    font-size: 1rem;
-    text-align: center;
-    margin: 15px 0 25px;
-    color: #dceeff;
-}
-
-.download-xml a {
-    font-size: 0.95rem;
-    color: #66fcf1;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.download-xml a:hover {
-    text-decoration: underline;
-}
-/*
-   SUGGESTED SONGS PAGE
- */
-
-.song-badge,
-.time-badge {
-    display: inline-block;
-    padding: 8px 14px;
-    margin: 5px 5px 10px 0;
-    border-radius: 25px;
-    font-weight: bold;
-    font-size: 0.95rem;
-}
-
-.song-badge {
-    background: #ffe8a3;
-    color: #333;
-}
-
-.time-badge {
-    background: #dcecff;
-    color: #333;
-}
-
-.movies {
-    width: 90%;
-    margin: auto;
-}
-
-.movie-card {
-    transition: transform 0.3s ease;
-}
-
-.movie-card:hover {
-    transform: translateY(-5px);
-}
-
-.movie-info p {
-    line-height: 1.5;
-}
-
-.intro {
-    text-align: center;
-    padding: 20px;
-}
-
-.intro h2 {
-    margin-bottom: 10px;
-}
-
-.intro p {
-    max-width: 800px;
-    margin: auto;
-}
-/* ======================
-   MOVIE POPUP
-====================== */
-
-.modal {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.7);
-
-    justify-content: center;
-    align-items: center;
-
-    z-index: 9999;
-}
-
-.modal-content {
-
-    width: 500px;
-    max-width: 90%;
-
-    background: white;
-
-    color: #222;
-
-    padding: 30px;
-
-    border-radius: 20px;
-
-    text-align: center;
-
-    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
-}
-
-.modal-content h2 {
-    margin-bottom: 20px;
-}
-
-.modal-content ul {
-    list-style: none;
-    padding: 0;
-}
-
-.modal-content li {
-
-    background: #f5f5f5;
-
-    margin-bottom: 10px;
-
-    padding: 12px;
-
-    border-radius: 10px;
-}
-
-.modal-buttons {
-    margin-top: 20px;
-}
-
-.modal-buttons button {
-
-    padding: 12px 20px;
-
-    margin: 5px;
-
-    border: none;
-
-    border-radius: 25px;
-
-    background: #6ec6f0;
-
-    font-weight: bold;
-
-    cursor: pointer;
-}
-
-.blur-background {
-    filter: blur(8px);
-}
-
-.movie-card {
-    cursor: pointer;
-}
-.movies {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
-    width: 90%;
-    margin: 30px auto;
-}
-.movie-card {
-    cursor: pointer;
-    transition: transform 0.3s;
-}
-
-.movie-card:hover {
-    transform: scale(1.05);
-}
-
-.movie-card img {
-    width: 100%;
-    border-radius: 12px;
-}
-
-.modal {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.75);
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-}
-
-.modal-content {
-    background: white;
-    width: 500px;
-    max-width: 90%;
-    padding: 30px;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.modal-content ul {
-    list-style: none;
-    padding: 0;
-}
-
-.modal-content li {
-    background: #f4f4f4;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.modal-buttons button {
-    margin: 10px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-}
-/* 
-   PRICING PAGE
- */
-
-/* ===================================
-   PRICING PAGE
-=================================== */
-
-.pricing-container {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    margin: 50px auto;
-    width: 90%;
-}
-
-.plan {
-    width: 320px;
-    min-height: 500px;
-    padding: 25px;
-    border-radius: 20px;
-    position: relative;
-    text-align: center;
-    overflow: hidden;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
-    transition: transform 0.3s ease;
-}
-
-.plan:hover {
-    transform: translateY(-10px);
-}
-
-/* =====================
-   FREE PLAN
-===================== */
-
-.free-plan {
-    background:
-    linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)),
-    url("../images/movie1.jpg");
-
-    background-size: cover;
-    background-position: center;
-    color: white;
-}
-
-/* =====================
-   PREMIUM PLAN
-===================== */
-
-.premium-plan {
-    background:
-    linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)),
-    url("../images/movie7.jpg");
-
-    background-size: cover;
-    background-position: center;
-    color: white;
-
-    border: 3px solid gold;
-}
-
-/* =====================
-   YEARLY PLAN
-===================== */
-
-.yearly-plan {
-    background:
-    linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)),
-    url("../images/movie4.jpg");
-
-    background-size: cover;
-    background-position: center;
-    color: white;
-}
-
-/* =====================
-   CARD CONTENT
-===================== */
-
-.plan h3 {
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-    color: white;
-}
-
-.price {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: white;
-}
-
-.price span {
-    font-size: 1rem;
-    font-weight: normal;
-}
-
-.plan ul {
-    list-style: none;
-    padding: 0;
-    margin: 20px 0;
-}
-
-.plan li {
-    padding: 10px 0;
-    color: white;
-    font-size: 1rem;
-}
-
-.plan button {
-    background: #6ec6f0;
-    color: #111;
-    border: none;
-    border-radius: 25px;
-    padding: 12px 25px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.plan button:hover {
-    transform: scale(1.05);
-}
-
-/* =====================
-   POPULAR TAG
-===================== */
-
-.popular-tag {
-    position: absolute;
-    top: 15px;
-    left: 50%;
-    transform: translateX(-50%);
-
-    background: gold;
-    color: #222;
-
-    padding: 8px 18px;
-    border-radius: 20px;
-    font-weight: bold;
-    font-size: 0.9rem;
-}
-
-/* =====================
-   FAQ SECTION
-===================== */
-
-.faq {
-    width: 80%;
-    margin: 60px auto;
-}
-
-.faq h2 {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.faq details {
-    background: white;
-    color: #222;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-}
-
-.faq summary {
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 1rem;
-}
-
-.faq p {
-    margin-top: 10px;
-    line-height: 1.5;
-}
-
-/* =====================
-   PAGE TITLE
-===================== */
-
-.pricing-title {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 2rem;
 }
