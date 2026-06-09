@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggested Songs | Movie Melody</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="pageContent">
+<header>
+    <h1>Movie Melody</h1>
+    <p>Suggested Songs & Movie Timestamps</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="songs.html">Suggested Songs</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="help.html">Help</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<section class="intro">
+    <h2>Music Recommendations</h2>
+    <p>
+        Click any movie poster to view suggested songs and timestamps.
+    </p>
+</section>
+
+<section class="movies">
+
+<!-- Tangled -->
+<article class="movie-card"
+onclick="openModal('Tangled',[
+'🎵 I See The Light — 01:22:15',
+'🎵 A Thousand Years — 00:58:40',
+'🎵 Enchanted — 01:10:20'
+])">
+    <figure>
+        <img src="images/movie1.jpg" alt="Tangled poster">
+        <figcaption>Tangled</figcaption>
+    </figure>
+</article>
+
+<!-- Bridget Jones -->
+<article class="movie-card"
+onclick="openModal('Bridget Jones Diary',[
+'🎵 Perfect — 00:45:20',
+'🎵 Love Story — 01:05:30',
+'🎵 Just The Way You Are — 01:20:15'
+])">
+    <figure>
+        <img src="images/movie2.jpg" alt="Bridget Jones poster">
+        <figcaption>Bridget Jones's Diary</figcaption>
+    </figure>
+</article>
+
+<!-- Titanic -->
+<article class="movie-card"
+onclick="openModal('Titanic',[
+'🎵 My Heart Will Go On — 01:48:30',
+'🎵 All Of Me — 02:05:10',
+'🎵 Say You Wont Let Go — 01:22:00'
+])">
+    <figure>
+        <img src="images/movie3.jpg" alt="Titanic poster">
+        <figcaption>Titanic</figcaption>
+    </figure>
+</article>
+
+<!-- Avatar -->
+<article class="movie-card"
+onclick="openModal('Avatar',[
+'🎵 A Sky Full Of Stars — 01:31:05',
+'🎵 Paradise — 00:59:40',
+'🎵 On Top Of The World — 01:43:10'
+])">
+    <figure>
+        <img src="images/movie4.jpg" alt="Avatar poster">
+        <figcaption>Avatar</figcaption>
+    </figure>
+</article>
+
+<!-- Zootopia -->
+<article class="movie-card"
+onclick="openModal('Zootopia',[
+'🎵 Try Everything — 00:57:40',
+'🎵 Happy — 00:30:15',
+'🎵 Firework — 01:11:50'
+])">
+    <figure>
+        <img src="images/movie5.jpg" alt="Zootopia poster">
+        <figcaption>Zootopia</figcaption>
+    </figure>
+</article>
+
+<!-- Rush Hour -->
+<article class="movie-card"
+onclick="openModal('Rush Hour',[
+'🎵 Cant Hold Us — 01:05:10',
+'🎵 Stronger — 00:45:20',
+'🎵 Remember The Name — 01:20:40'
+])">
+    <figure>
+        <img src="images/movie6.jpg" alt="Rush Hour poster">
+        <figcaption>Rush Hour</figcaption>
+    </figure>
+</article>
+
+    <!-- La La Land -->
+<article class="movie-card"
+onclick="openModal('La La Land',[
+'🎵 City Of Stars — 01:09:30',
+'🎵 Golden Hour — 00:42:50',
+'🎵 Yellow — 01:18:40'
+])">
+    <figure>
+        <img src="images/movie7.jpg" alt="La La Land poster">
+        <figcaption>La La Land</figcaption>
+    </figure>
+</article>
+
+<!-- Legally Blonde -->
+<article class="movie-card"
+onclick="openModal('Legally Blonde',[
+'🎵 Roar — 00:39:00',
+'🎵 Confident — 00:55:10',
+'🎵 Stronger — 01:14:20'
+])">
+    <figure>
+        <img src="images/movie8.jpg" alt="Legally Blonde poster">
+        <figcaption>Legally Blonde</figcaption>
+    </figure>
+</article>
+
+<!-- Twilight -->
+<article class="movie-card"
+onclick="openModal('Twilight',[
+'🎵 A Thousand Years — 01:14:45',
+'🎵 Iris — 00:50:00',
+'🎵 Photograph — 01:29:20'
+])">
+    <figure>
+        <img src="images/movie9.jpg" alt="Twilight poster">
+        <figcaption>Twilight</figcaption>
+    </figure>
+</article>
+
+<!-- Scooby-Doo -->
+<article class="movie-card"
+onclick="openModal('Scooby-Doo',[
+'🎵 Ghostbusters — 00:28:20',
+'🎵 Thriller — 00:44:15',
+'🎵 Monster Mash — 01:02:30'
+])">
+    <figure>
+        <img src="images/movie10.jpg" alt="Scooby-Doo poster">
+        <figcaption>Scooby-Doo</figcaption>
+    </figure>
+</article>
+
+<!-- Addams Family -->
+<article class="movie-card"
+onclick="openModal('The Addams Family',[
+'🎵 Somebodys Watching Me — 00:51:10',
+'🎵 Disturbia — 01:03:15',
+'🎵 Bad Guy — 01:17:20'
+])">
+    <figure>
+        <img src="images/movie11.jpg" alt="Addams Family poster">
+        <figcaption>The Addams Family</figcaption>
+    </figure>
+</article>
+
+<!-- Shrek -->
+<article class="movie-card"
+onclick="openModal('Shrek',[
+'🎵 All Star — 00:03:05',
+'🎵 Im A Believer — 01:20:40',
+'🎵 Accidentally In Love — 00:46:15'
+])">
+    <figure>
+        <img src="images/movie12.jpg" alt="Shrek poster">
+        <figcaption>Shrek</figcaption>
+    </figure>
+</article>
+
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Movie Melody</p>
+    <address>
+        Contact: A048738@umaia.pt
+        A049851@umaia.pt
+    </address>
+</footer>
+
+<!-- MOVIE POPUP -->
+
+<div id="movieModal" class="modal">
+
+    <div class="modal-content">
+
+        <h2 id="modalTitle"></h2>
+
+        <ul id="modalSongs"></ul>
+
+        <div class="modal-buttons">
+
+
+            <button onclick="closeModal()">
+                Check Out Other Movies
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+function openModal(movie, songs)
+{
+    document.getElementById("modalTitle").innerText = movie;
+
+    const list =
+        document.getElementById("modalSongs");
+
+    list.innerHTML = "";
+
+    songs.forEach(song =>
+    {
+        const li =
+            document.createElement("li");
+
+        li.innerText = song;
+
+        list.appendChild(li);
+    });
+
+    document
+        .getElementById("movieModal")
+        .style.display = "flex";
+}
+
+function closeModal()
+{
+    document
+        .getElementById("movieModal")
+        .style.display = "none";
+}
+
+window.onclick = function(event)
+{
+    const modal =
+        document.getElementById("movieModal");
+
+    if(event.target === modal)
+    {
+        closeModal();
+    }
+}
+
+</script>
+
+</div>
+
+</body>
+</html>

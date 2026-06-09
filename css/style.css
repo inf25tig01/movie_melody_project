@@ -418,3 +418,390 @@ button:hover {
 .download-xml a:hover {
     text-decoration: underline;
 }
+/*
+   SUGGESTED SONGS PAGE
+ */
+
+.song-badge,
+.time-badge {
+    display: inline-block;
+    padding: 8px 14px;
+    margin: 5px 5px 10px 0;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.song-badge {
+    background: #ffe8a3;
+    color: #333;
+}
+
+.time-badge {
+    background: #dcecff;
+    color: #333;
+}
+
+.movies {
+    width: 90%;
+    margin: auto;
+}
+
+.movie-card {
+    transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+}
+
+.movie-info p {
+    line-height: 1.5;
+}
+
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+.intro h2 {
+    margin-bottom: 10px;
+}
+
+.intro p {
+    max-width: 800px;
+    margin: auto;
+}
+/* ======================
+   MOVIE POPUP
+====================== */
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+}
+
+.modal-content {
+
+    width: 500px;
+    max-width: 90%;
+
+    background: white;
+
+    color: #222;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+
+.modal-content h2 {
+    margin-bottom: 20px;
+}
+
+.modal-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.modal-content li {
+
+    background: #f5f5f5;
+
+    margin-bottom: 10px;
+
+    padding: 12px;
+
+    border-radius: 10px;
+}
+
+.modal-buttons {
+    margin-top: 20px;
+}
+
+.modal-buttons button {
+
+    padding: 12px 20px;
+
+    margin: 5px;
+
+    border: none;
+
+    border-radius: 25px;
+
+    background: #6ec6f0;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.blur-background {
+    filter: blur(8px);
+}
+
+.movie-card {
+    cursor: pointer;
+}
+.movies {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    width: 90%;
+    margin: 30px auto;
+}
+.movie-card {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.75);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-content {
+    background: white;
+    width: 500px;
+    max-width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.modal-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.modal-content li {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.modal-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* 
+   PRICING PAGE
+ */
+
+/* ===================================
+   PRICING PAGE
+=================================== */
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    width: 90%;
+}
+
+.plan {
+    width: 320px;
+    min-height: 500px;
+    padding: 25px;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.plan:hover {
+    transform: translateY(-10px);
+}
+
+/* =====================
+   FREE PLAN
+===================== */
+
+.free-plan {
+    background:
+    linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)),
+    url("../images/movie1.jpg");
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* =====================
+   PREMIUM PLAN
+===================== */
+
+.premium-plan {
+    background:
+    linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)),
+    url("../images/movie7.jpg");
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+    border: 3px solid gold;
+}
+
+/* =====================
+   YEARLY PLAN
+===================== */
+
+.yearly-plan {
+    background:
+    linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)),
+    url("../images/movie4.jpg");
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* =====================
+   CARD CONTENT
+===================== */
+
+.plan h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.price span {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.plan li {
+    padding: 10px 0;
+    color: white;
+    font-size: 1rem;
+}
+
+.plan button {
+    background: #6ec6f0;
+    color: #111;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.plan button:hover {
+    transform: scale(1.05);
+}
+
+/* =====================
+   POPULAR TAG
+===================== */
+
+.popular-tag {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: gold;
+    color: #222;
+
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* =====================
+   FAQ SECTION
+===================== */
+
+.faq {
+    width: 80%;
+    margin: 60px auto;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.faq details {
+    background: white;
+    color: #222;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.faq summary {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.faq p {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+/* =====================
+   PAGE TITLE
+===================== */
+
+.pricing-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
