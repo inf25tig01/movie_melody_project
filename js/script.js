@@ -3,7 +3,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const title = document.querySelector("h1");
 
-    title.addEventListener("click", function () {
-        title.textContent = "Welcome to Movie Music Finder!";
-    });
+    if (title) {
+        title.addEventListener("click", function () {
+            title.textContent = "Welcome to Movie Music Finder!";
+        });
+    }
 });
